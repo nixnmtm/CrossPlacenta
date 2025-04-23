@@ -1,11 +1,14 @@
-# PlacentaBarrier
+# Infer whether a drug can cross placenta?
 
-Just trying to infer few more drugs based on the dataset obtained from Fillipo etal and using the logic of Chandrasekar et al for inference.
+Just trying to infer few drugs based on the dataset obtained from Fillipo etal and using the logic of Chandrasekar et al for inference.
 
 # New functions and Visulizations added
-Created few Functions for checking the inference and confidence of the model and PCA plots to check where the drug inferred stands in the population of trained data and test data.
+Created few Functions for checking the inference and getting confidence metrics, PCA distance and Trustworthyness
+
+PCA plots to check where the drug inferred stands in the population of trained data and test data.
 
 Plot function helps analyzing the PCA distance and confidence as metrics to look for better model and reliability (trustworthiness)
+
 
 Please cite the bellow paper if the code is used in anyway.
 
