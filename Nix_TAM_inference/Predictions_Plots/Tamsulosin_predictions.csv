@@ -1,0 +1,56 @@
+Fingerprint,Model,Drug,Prediction,Confidence,CV_Accuracy,CV_ROC_AUC,PCA_Distance,95%_Train_Distance,Trustworthy
+MORGAN,LDA,Tamsulosin,YES,1.0,0.8314,0.6005,3.3634,13.7716,✅
+MORGAN,Logistic Regression,Tamsulosin,NO,0.3484,0.8522,0.7528,3.3634,13.7716,⚠️
+MORGAN,Random Forest,Tamsulosin,YES,0.73,0.8989,0.841,3.3634,13.7716,✅
+MORGAN,Decision Tree,Tamsulosin,NO,0.0,0.7805,0.57,3.3634,13.7716,⚠️
+MORGAN,Support Vector Machine,Tamsulosin,YES,0.6023,0.8948,0.8028,3.3634,13.7716,⚠️
+MORGAN,Gradient Boosting,Tamsulosin,NO,0.0814,0.8947,0.7752,3.3634,13.7716,⚠️
+MORGAN,XGBoost,Tamsulosin,NO,0.316100001335144,0.8735,0.7405,3.3634,13.7716,⚠️
+MORGAN,LightGBM,Tamsulosin,YES,0.9771,0.848,0.7145,3.3634,13.7716,✅
+MORGAN,CatBoost,Tamsulosin,YES,0.5158,0.9032,0.8158,3.3634,13.7716,⚠️
+MORGAN,Extra Trees,Tamsulosin,YES,0.67,0.8905,0.8415,3.3634,13.7716,⚠️
+MORGAN,QDA,Tamsulosin,NO,0.0,0.3639,0.604,3.3634,13.7716,⚠️
+MACCS,LDA,Tamsulosin,YES,1.0,0.662,0.5259,7.6918,9.2127,✅
+MACCS,Logistic Regression,Tamsulosin,NO,0.0091,0.7972,0.7452,7.6918,9.2127,⚠️
+MACCS,Random Forest,Tamsulosin,YES,0.52,0.8735,0.7787,7.6918,9.2127,⚠️
+MACCS,Decision Tree,Tamsulosin,NO,0.0,0.8396,0.5944,7.6918,9.2127,⚠️
+MACCS,Support Vector Machine,Tamsulosin,NO,0.4523,0.806,0.7901,7.6918,9.2127,⚠️
+MACCS,Gradient Boosting,Tamsulosin,NO,0.2655,0.8693,0.7762,7.6918,9.2127,⚠️
+MACCS,XGBoost,Tamsulosin,NO,0.399399995803833,0.8608,0.7857,7.6918,9.2127,⚠️
+MACCS,LightGBM,Tamsulosin,NO,0.2478,0.8734,0.7711,7.6918,9.2127,⚠️
+MACCS,CatBoost,Tamsulosin,YES,0.5955,0.882,0.7904,7.6918,9.2127,⚠️
+MACCS,Extra Trees,Tamsulosin,NO,0.49,0.8607,0.7832,7.6918,9.2127,⚠️
+MACCS,QDA,Tamsulosin,YES,1.0,0.8014,0.6601,7.6918,9.2127,✅
+RDKIT,LDA,Tamsulosin,YES,1.0,0.848,0.7109,8.2552,37.056,✅
+RDKIT,Logistic Regression,Tamsulosin,YES,0.6287,0.8479,0.7065,8.2552,37.056,⚠️
+RDKIT,Random Forest,Tamsulosin,YES,0.77,0.8777,0.8271,8.2552,37.056,✅
+RDKIT,Decision Tree,Tamsulosin,NO,0.0,0.8524,0.5851,8.2552,37.056,⚠️
+RDKIT,Support Vector Machine,Tamsulosin,YES,0.7824,0.8734,0.7936,8.2552,37.056,✅
+RDKIT,Gradient Boosting,Tamsulosin,YES,0.8997,0.8649,0.7307,8.2552,37.056,✅
+RDKIT,XGBoost,Tamsulosin,YES,0.6820999979972839,0.8777,0.7288,8.2552,37.056,⚠️
+RDKIT,LightGBM,Tamsulosin,NO,0.4039,0.8564,0.7247,8.2552,37.056,⚠️
+RDKIT,CatBoost,Tamsulosin,YES,0.8358,0.8777,0.7792,8.2552,37.056,✅
+RDKIT,Extra Trees,Tamsulosin,YES,0.77,0.8819,0.7712,8.2552,37.056,✅
+RDKIT,QDA,Tamsulosin,NO,0.0,0.3088,0.6535,8.2552,37.056,⚠️
+PUBCHEM,LDA,Tamsulosin,NO,0.0,0.7255,0.5641,9.1421,15.7284,⚠️
+PUBCHEM,Logistic Regression,Tamsulosin,NO,0.0101,0.8352,0.7173,9.1421,15.7284,⚠️
+PUBCHEM,Random Forest,Tamsulosin,NO,0.49,0.8735,0.7793,9.1421,15.7284,⚠️
+PUBCHEM,Decision Tree,Tamsulosin,NO,0.0,0.8395,0.6347,9.1421,15.7284,⚠️
+PUBCHEM,Support Vector Machine,Tamsulosin,NO,0.2682,0.8353,0.7612,9.1421,15.7284,⚠️
+PUBCHEM,Gradient Boosting,Tamsulosin,YES,0.6065,0.8438,0.7674,9.1421,15.7284,⚠️
+PUBCHEM,XGBoost,Tamsulosin,NO,0.0186000000685453,0.8607,0.7625,9.1421,15.7284,⚠️
+PUBCHEM,LightGBM,Tamsulosin,NO,0.0155,0.8438,0.7386,9.1421,15.7284,⚠️
+PUBCHEM,CatBoost,Tamsulosin,YES,0.5215,0.8692,0.7925,9.1421,15.7284,⚠️
+PUBCHEM,Extra Trees,Tamsulosin,NO,0.43,0.8735,0.7969,9.1421,15.7284,⚠️
+PUBCHEM,QDA,Tamsulosin,NO,0.0,0.54,0.6256,9.1421,15.7284,⚠️
+FP3,LDA,Tamsulosin,YES,0.9809,0.8563,0.7252,2.6033,5.4501,✅
+FP3,Logistic Regression,Tamsulosin,YES,0.8315,0.7762,0.7393,2.6033,5.4501,✅
+FP3,Random Forest,Tamsulosin,YES,0.8473,0.8608,0.7983,2.6033,5.4501,✅
+FP3,Decision Tree,Tamsulosin,YES,1.0,0.8395,0.6382,2.6033,5.4501,✅
+FP3,Support Vector Machine,Tamsulosin,YES,0.9389,0.7847,0.7961,2.6033,5.4501,✅
+FP3,Gradient Boosting,Tamsulosin,YES,0.9819,0.8858,0.8163,2.6033,5.4501,✅
+FP3,XGBoost,Tamsulosin,YES,0.9882000088691713,0.8733,0.7659,2.6033,5.4501,✅
+FP3,LightGBM,Tamsulosin,YES,0.9722,0.8648,0.7701,2.6033,5.4501,✅
+FP3,CatBoost,Tamsulosin,YES,0.9383,0.8904,0.8036,2.6033,5.4501,✅
+FP3,Extra Trees,Tamsulosin,YES,0.78,0.8566,0.8081,2.6033,5.4501,✅
+FP3,QDA,Tamsulosin,NO,0.0,0.8691,0.6078,2.6033,5.4501,⚠️

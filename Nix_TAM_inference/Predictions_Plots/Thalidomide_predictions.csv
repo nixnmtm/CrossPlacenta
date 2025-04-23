@@ -1,0 +1,45 @@
+Fingerprint,Model,Drug,Prediction,Confidence,CV_Accuracy,CV_ROC_AUC,PCA_Distance,95%_Train_Distance,Trustworthy
+MORGAN,LDA,Thalidomide,YES,1.0,0.8314,0.6005,1.4904,13.7133,✅
+MORGAN,Logistic Regression,Thalidomide,YES,0.9868,0.8522,0.7528,1.4904,13.7133,✅
+MORGAN,Random Forest,Thalidomide,YES,1.0,0.8989,0.841,1.4904,13.7133,✅
+MORGAN,Decision Tree,Thalidomide,YES,1.0,0.7805,0.57,1.4904,13.7133,✅
+MORGAN,Support Vector Machine,Thalidomide,YES,0.9725,0.8948,0.8028,1.4904,13.7133,✅
+MORGAN,Gradient Boosting,Thalidomide,YES,0.9779,0.8862,0.7753,1.4904,13.7133,✅
+MORGAN,XGBoost,Thalidomide,YES,0.9987999796867371,0.8735,0.7405,1.4904,13.7133,✅
+MORGAN,LightGBM,Thalidomide,YES,0.9946,0.848,0.7145,1.4904,13.7133,✅
+MORGAN,CatBoost,Thalidomide,YES,0.9709,0.9032,0.8158,1.4904,13.7133,✅
+MORGAN,Extra Trees,Thalidomide,YES,1.0,0.8905,0.8415,1.4904,13.7133,✅
+MORGAN,QDA,Thalidomide,YES,1.0,0.3639,0.604,1.4904,13.7133,✅
+MACCS,LDA,Thalidomide,YES,1.0,0.662,0.5259,1.5135,9.2127,✅
+MACCS,Logistic Regression,Thalidomide,YES,0.9563,0.7972,0.7452,1.5135,9.2127,✅
+MACCS,Random Forest,Thalidomide,YES,1.0,0.8735,0.7787,1.5135,9.2127,✅
+MACCS,Decision Tree,Thalidomide,YES,1.0,0.8396,0.5944,1.5135,9.2127,✅
+MACCS,Support Vector Machine,Thalidomide,YES,0.9675,0.806,0.7901,1.5135,9.2127,✅
+MACCS,Gradient Boosting,Thalidomide,YES,0.997,0.8693,0.7744,1.5135,9.2127,✅
+MACCS,XGBoost,Thalidomide,YES,0.9987999796867371,0.8608,0.7857,1.5135,9.2127,✅
+MACCS,LightGBM,Thalidomide,YES,0.9962,0.8734,0.7711,1.5135,9.2127,✅
+MACCS,CatBoost,Thalidomide,YES,0.9865,0.882,0.7904,1.5135,9.2127,✅
+MACCS,Extra Trees,Thalidomide,YES,0.98,0.8607,0.7832,1.5135,9.2127,✅
+MACCS,QDA,Thalidomide,YES,1.0,0.8014,0.6601,1.5135,9.2127,✅
+RDKIT,LDA,Thalidomide,YES,1.0,0.848,0.7109,7.4788,37.056,✅
+RDKIT,Logistic Regression,Thalidomide,YES,0.9843,0.8479,0.7065,7.4788,37.056,✅
+RDKIT,Random Forest,Thalidomide,YES,0.92,0.8777,0.8271,7.4788,37.056,✅
+RDKIT,Decision Tree,Thalidomide,YES,1.0,0.8524,0.5851,7.4788,37.056,✅
+RDKIT,Support Vector Machine,Thalidomide,YES,0.9297,0.8734,0.7936,7.4788,37.056,✅
+RDKIT,Gradient Boosting,Thalidomide,YES,0.9965,0.8649,0.7283,7.4788,37.056,✅
+RDKIT,XGBoost,Thalidomide,YES,0.9794999957084656,0.8777,0.7288,7.4788,37.056,✅
+RDKIT,LightGBM,Thalidomide,YES,0.996,0.8564,0.7247,7.4788,37.056,✅
+RDKIT,CatBoost,Thalidomide,YES,0.9633,0.8777,0.7792,7.4788,37.056,✅
+RDKIT,Extra Trees,Thalidomide,YES,1.0,0.8819,0.7712,7.4788,37.056,✅
+RDKIT,QDA,Thalidomide,YES,1.0,0.3088,0.6535,7.4788,37.056,✅
+PUBCHEM,LDA,Thalidomide,YES,1.0,0.7255,0.5641,2.8617,15.7284,✅
+PUBCHEM,Logistic Regression,Thalidomide,YES,0.9963,0.8352,0.7173,2.8617,15.7284,✅
+PUBCHEM,Random Forest,Thalidomide,YES,1.0,0.8735,0.7793,2.8617,15.7284,✅
+PUBCHEM,Decision Tree,Thalidomide,YES,1.0,0.8395,0.6347,2.8617,15.7284,✅
+PUBCHEM,Support Vector Machine,Thalidomide,YES,0.9727,0.8353,0.7612,2.8617,15.7284,✅
+PUBCHEM,Gradient Boosting,Thalidomide,YES,0.991,0.831,0.7627,2.8617,15.7284,✅
+PUBCHEM,XGBoost,Thalidomide,YES,0.9993000030517578,0.8607,0.7625,2.8617,15.7284,✅
+PUBCHEM,LightGBM,Thalidomide,YES,0.9999,0.8438,0.7386,2.8617,15.7284,✅
+PUBCHEM,CatBoost,Thalidomide,YES,0.984,0.8692,0.7925,2.8617,15.7284,✅
+PUBCHEM,Extra Trees,Thalidomide,YES,1.0,0.8735,0.7969,2.8617,15.7284,✅
+PUBCHEM,QDA,Thalidomide,NO,0.0,0.54,0.6256,2.8617,15.7284,⚠️
